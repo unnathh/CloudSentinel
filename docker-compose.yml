@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cloudsentinel_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_data:/app/db
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:////app/db/cloudsentinel.db
+      - SECRET_KEY=super-secret-key-change-in-production-1234567890
+      - ENCRYPTION_KEY=z2WfS6-2L1aHk_Q28tI5SjY3P4Xm_oN5M1L2k3J4I5o=
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cloudsentinel_frontend
+    ports:
+      - "80:80"
+    environment:
+      - VITE_API_URL=http://localhost:8000/api
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_data:
