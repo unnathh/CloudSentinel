@@ -72,21 +72,12 @@ Whether you're a cloud engineer, security analyst, or student learning cloud sec
 <img width="1915" height="957" alt="image" src="https://github.com/user-attachments/assets/c9ea27da-d367-4253-ad99-d8c2ad7f340c" />
 
 
-
-```text
-
-```
-
 ---
 
 ## 📊 Dashboard
 
 > <img width="1907" height="962" alt="image" src="https://github.com/user-attachments/assets/e5f9eb2f-9a24-44b8-8723-73ba1550792c" />
 
-
-```text
-docs/dashboard.png
-```
 
 ---
 
@@ -95,10 +86,6 @@ docs/dashboard.png
 > <img width="1905" height="950" alt="image" src="https://github.com/user-attachments/assets/c35e1189-a9fd-4e0c-bac1-9229bb13347b" />
 
 
-```text
-docs/aws-scan.png
-```
-
 ---
 
 ## 🕸️ Security Graph
@@ -106,20 +93,12 @@ docs/aws-scan.png
 > <img width="1912" height="960" alt="image" src="https://github.com/user-attachments/assets/4d5f58fb-f10e-43f4-957a-9aef92439210" />
 
 
-```text
-docs/security-graph.png
-```
-
 ---
 
 ## 📄 Security Report
 
 > <img width="1475" height="897" alt="image" src="https://github.com/user-attachments/assets/0906342b-2c66-4680-a4fc-5c4d40a17097" />
 
-
-```text
-docs/report.png
-```
 
 ---
 
