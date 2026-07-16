@@ -62,15 +62,6 @@ Whether you're a cloud engineer, security analyst, or student learning cloud sec
 
 ---
 
-# 🎥 Demo
-
-> 📹 **Demo Video**
->
-> *(Add YouTube or Loom link here)*
-
-```
-https://your-demo-link.com
-```
 
 ---
 
